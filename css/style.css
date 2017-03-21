@@ -27,7 +27,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2vw;
-    min-width: 1200px;
     background-color: #1c2af4;
 
 }
@@ -102,6 +101,11 @@ h1{
 
 @media(max-width: 600px){
 	.companies a{
+    width: 100%;
+}
+}
+@media(max-width: 600px){
+	article{
     width: 100%;
 }
 }
