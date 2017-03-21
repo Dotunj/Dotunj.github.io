@@ -119,3 +119,13 @@ h1{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
 }
+a:hover{
+	color:orange;
+}
+a:visited{
+  color: white;
+}
+a:active{
+	color: white;
+
+}
