@@ -2,7 +2,7 @@ p.description{
 	font-size: 1.3333em;
 	line-height: 1.2em;
 	 margin: 0.5em 0;
-	 color: white;
+	 color: #000;
 	 font-family: 'Josefin Sans', sans-serif;
 }
 p{
@@ -19,7 +19,7 @@ h4{
     font-weight: bold;
 }
 body {
-   font-size: 24px;
+   font-size: 20px;
    -webkit-box-sizing: border-box;
     display: flex;
     min-height: 100vh;
@@ -27,8 +27,6 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2vw;
-    background-color: #1c2af4;
-
 }
 .companies{
 	list-style: none;
@@ -40,7 +38,7 @@ body {
 	margin-top: 3.6em;
 }
 a{
-	color:#FFF;
+	color:#000;
 }
 .companies a{
 	width:31.33333%;
@@ -92,8 +90,11 @@ h4{
 .companies a.bestwestern .logo{
 	background-image: url('../img/logo-bestwestern.jpg'); 
 }
+#test{
+	color: #CD5C5C;
+}
 h1{
-	color: white;
+	color: #000;
 	font-family: 'Quicksand', sans-serif;
 	display: block;
 	font-weight: bold;
@@ -120,12 +121,9 @@ h1{
     color: white;
 }
 a:hover{
-	color:orange;
+	color:#CD5C5C;
 }
-a:visited{
-  color: white;
-}
-a:active{
-	color: white;
 
+a:active{
+	color: #000;
 }
